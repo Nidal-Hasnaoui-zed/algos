@@ -1,0 +1,17 @@
+// Exercoce 03 : 
+//Ecrire un algorithme qui demande ä l'utilisateur de saisir deux réels X et
+//Y, et qui affiche la puissance X de puissance Y.
+ALGORITHM  Puissance
+VAR
+    X : FLOAT ; 
+    Y : FLOAT ; 
+    P : FLOAT ;
+BEGIN
+    Write("Donner X"); 
+    Read(X); 
+    Write("Donner Y"); 
+    Read(Y); 
+    P <-- X ** Y ; 
+    Write("X de Puissnace de Y est ", P);
+END
+

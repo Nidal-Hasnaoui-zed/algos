@@ -10,5 +10,5 @@ BEGIN
     Read(nom); 
     Write("Donner Votre age"); 
     Read(age); 
-    Write("Bonjour"+nom+"tu as " + age + "ans et bein vennus sur notre unversty")
+    Write("Bonjour"+nom+"tu as " + age + "ans et bein vennus sur notre unversty") ;
 END

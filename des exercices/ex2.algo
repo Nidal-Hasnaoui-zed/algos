@@ -12,7 +12,8 @@ BEGIN
     Read(longueur); 
     Write("Donner la largeur"); 
     Read(largeur); 
-    périmétre <-- 2 * (largeur + longueur)
-    surface <-- longueur * largeur
-    Write("le périmétre est "+ périmétre + "et la surface est "  + surface)
+    périmétre <-- 2 * (largeur + longueur) ; 
+    surface <-- longueur * largeur ; 
+    Write("le périmétre est "+ périmétre + "et la surface est "  + surface) ;
 END
+

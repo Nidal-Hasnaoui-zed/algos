@@ -1,0 +1,23 @@
+// exercice 4 : 
+// Ecrire un algorithme opérations qui calcule la somme, le produit, la
+// différence et la division de deux nombre réels.
+ALGORITHM  Calculator
+VAR
+    X : FLOAT ; 
+    Y : FLOAT ; 
+    R : FLOAT ;
+BEGIN
+    Write("Donner X"); 
+    Read(X); 
+    Write("Donner Y"); 
+    Read(Y); 
+    S<-- X + Y ; 
+    Write("La Somme est", R);
+    M <-- X - Y ; 
+    Write("La Soustraction est", R);
+     <-- X / Y ; 
+    Write("La devision est", R);
+    R <-- X ** Y ; 
+    Write("X de Puissnace de Y est ", R);
+
+END

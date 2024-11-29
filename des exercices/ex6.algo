@@ -1,0 +1,16 @@
+// Ecercice 6 : 
+// Écrire un algorithme qui demande å l'utilisateur de taper le rayon d'une
+// sphére, puis calcule et affiche son volume.
+ALGORITHM Volume 
+Var 
+    rayon : FLOAT ; 
+    Volume : FLOAT ;
+    r  : FLOAT;
+    p <-- 3.14 ;
+BEGIN 
+    Write("Donner le rayon"); 
+    Read(rayon) ; 
+    r <-- rayon  ^ 3 ;
+    Volume <-- (4*p*r)/3;
+    Write("La Volume du sphere est  : ", Volume);
+END

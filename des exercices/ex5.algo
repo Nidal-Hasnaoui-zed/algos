@@ -1,0 +1,20 @@
+// ex : 5 
+//Ecrire un algorithme qui demande å l'utilisateur de taper 5 notes et qui
+//affiche leur somme et leur moyenne.
+
+
+// Correction : 
+
+ALGORITHM Moyenne 
+Var 
+    note1 , not2 , note3 , note4 , note5 : FLOAT ; 
+    moyenne : FLOAT ; 
+    Somme : FLOAT ;
+BEGIN 
+   Write("Donne les 5 notes : note1, note2, note3 , note4, note5"); 
+   Read(note1, note2, note3, note4 , note4) ;
+   Somme <--  note1 + note2 + note3 + note4 + note5 ;
+   moyenne <-- Somem / 5 ; 
+   Write("la somme est " + Somme ) ; 
+   Write("La moyenne est " + moyenne) ;
+END

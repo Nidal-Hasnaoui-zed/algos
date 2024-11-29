@@ -1,0 +1,17 @@
+// ex  9 : 
+// Écrire un algorithme qui demande un temps T (entier) exprimé en
+// secondes, et qui le convertit en heures, minutes, secondes.
+// Exemple : T = 56263 seconds => 75 heures 37 minutes 43 seconds.
+
+ALGORITHM Transfer 
+VAR 
+    T : INTEGER ;
+    trasformation_to_min , trasformation_to_h : FLOAT ;
+BEGIN 
+    Write("Donner les nombres des Secondes T =>"); 
+    Read(T);
+    trasformation_to_h <-- T / 3600 ; 
+    rest <-- T % 3600 ; 
+//  htal dar o kmlo abruer ok asat how o ex 10 o ex 8  
+
+    
