@@ -1,0 +1,18 @@
+// Exercice 02 : 
+// Ecrire un algorithme qui demande ä l'utilisateur de taper la largeur et la
+// longueur d'un rectangle et qui en affiche le périmétre et la surface.
+ALGORITHM  Rectangle
+VAR
+    largeur : INTEGER;
+    longueur :INTEGER; 
+    périmétre :INTEGER; 
+    surface : INTEGER ;
+BEGIN
+    Write("Donner la longueur ");
+    Read(longueur); 
+    Write("Donner la largeur"); 
+    Read(largeur); 
+    périmétre <-- 2 * (largeur + longueur)
+    surface <-- longueur * largeur
+    Write("le périmétre est "+ périmétre + "et la surface est "  + surface)
+END

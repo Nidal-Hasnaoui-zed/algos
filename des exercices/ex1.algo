@@ -1,7 +1,7 @@
 // Ecercice est :
 // Ecrire un program qui nous donnne age et nom 
 // est programme retourne : Bonjour tu nom("Bonjour"+nom+"tu as " + age + "ans et bein vennus sur notre unversty") as  agec(donner par utilistaeur )  ans et bein vennus sur notre unversty
-ALGORITHM three_nb_sum
+ALGORITHM Greating
 VAR
     age : INTEGER;
     nom: STRING;
