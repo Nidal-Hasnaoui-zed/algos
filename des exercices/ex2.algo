@@ -3,10 +3,10 @@
 // longueur d'un rectangle et qui en affiche le périmétre et la surface.
 ALGORITHM  Rectangle
 VAR
-    largeur : INTEGER;
-    longueur :INTEGER; 
-    périmétre :INTEGER; 
-    surface : INTEGER ;
+    largeur : FLOAT;
+    longueur :FLOAT; 
+    périmétre :FLOAT; 
+    surface : FLOAT;
 BEGIN
     Write("Donner la longueur ");
     Read(longueur); 
