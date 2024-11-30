@@ -1,0 +1,16 @@
+// Ecrire un algorithme Signe qui retourne si deux nombres entiers donnés
+// sont de méme signe ou non.
+
+ALGORITHM The_same_signe 
+VAR 
+    A ,  B : INTEGER ; 
+BEGIN 
+    Write('Ecrire A'); 
+    Read(A);
+    Write('Ecrire B')
+    Read(B)
+    IF (A * B > 0) THEN
+        Write('The same Signe')
+    ELSE
+        Write('Note the same Sign')
+    END_IF

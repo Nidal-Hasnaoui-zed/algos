@@ -1,0 +1,24 @@
+// Un magasin facture 0,30 dh les dix premiéres photocopies, 0,25 dh les
+// vingt suivantes et 0,20 dh au-delå. Rédiger un algorithme qui demande å
+// l'utilisateur le nombre de photocopies effectuées et qui affiche la facture
+// correspondante.
+
+ALGORITHM photocoppy 
+VAR 
+    n : INTEGER ; 
+    F : FLOAT ; 
+BEGIN 
+    Write('Donner les nombres Des photocoppy n ='); 
+    Read(n); 
+    IF (n <= 10) THEN
+        F = n * 0.3 ;
+        Write('la facture est '+ F + 'DH') ;
+    ELSE
+        IF (n >= 10 et n <= 30) THEN
+            F = 10 * 0.3 + (n -10)*0.25;
+            Write('la facture est '+ F + 'DH') ;
+        ELSE
+            F = 10 * 0.3 + 20 * 0.25 + (n-30)*0.2 ;
+            Write('la facture est '+ F + 'DH') ;
+        END_IF
+    END_IF

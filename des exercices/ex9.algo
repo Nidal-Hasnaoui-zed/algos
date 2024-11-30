@@ -12,6 +12,10 @@ BEGIN
     Read(T);
     trasformation_to_h <-- T / 3600 ; 
     rest <-- T % 3600 ; 
-//  htal dar o kmlo abruer ok asat how o ex 10 o ex 8  
+    trasformation_to_min <-- rest / 60 ; 
+    secondes <-- rest  % 60 ;
+    Write("Donc c'est T = "+trasformation_to_h + "h" + trasformation_to_min + "min" +secondes+"s");
+END 
+
 
     

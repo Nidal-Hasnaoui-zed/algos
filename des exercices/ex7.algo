@@ -5,13 +5,13 @@ ALGORITHM change
 VAR 
     A , B : INTEGER ;
 BEGIN 
-    Write("Donner A"); 
+    Write("Donner le variable A"); 
     Read(A); 
-    Write("Donner B"); 
+    Write("Donner la valeur de variable B"); 
     Read(B);
     C <-- A ; 
     A <-- B ; 
-    B <-- C ;  
-    Write("La valeur de A est ," +A) ; 
-    Write("La valeur de B est " + B) ; 
+    B <-- C ;
+    Write("La valeur Nouvell du A est ," + A);
+    Write("La valeur Nouvell du B est ," + B);
 END

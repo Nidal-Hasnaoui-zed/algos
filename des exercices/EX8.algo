@@ -2,5 +2,18 @@
 // Ecrire un algorithme qui demande å l'utilisateur de saisir 2 entiers A et B,
 // qui échange le contenu des variables A et B puis qui affiche A et B. Cette
 // fois sans utiliser d'autre variable que A et B.
+ALGORITHM change 
+VAR 
+    A , B : INTEGER ;
+BEGIN 
+    Write("Donner le variable A"); 
+    Read(A); 
+    Write("Donner la valeur de variable B"); 
+    Read(B);
+    C <-- A ; 
+    A <-- B ; 
+    B <-- C ;
+    Write("La valeur Nouvell du A est ," + A);
+    Write("La valeur Nouvell du B est ," + B);
+END
 
-//  khalih htal lil abruder .
